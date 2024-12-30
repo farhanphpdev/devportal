@@ -1,0 +1,87 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+header{
+    background-color: red;
+    width: 80%;
+    height: auto;
+    display: flex;
+    justify-content: space-between;
+    position: absolute;
+    top:20px;
+    left:50%;
+    transform: translate(-50%);
+    z-index: 2;
+    padding: 5px 10px;
+    align-items: center;
+}
+
+.hero_section{
+    width: 100%;
+    height: 500px;
+    background-image: url('bg.jpg'); /* Set the background image */
+    background-color: rgba(49, 49, 49, 0.5); /* Set the background color with transparency */
+    background-blend-mode: overlay; /* Blend the image and color */
+    background-size: cover; /* Cover the entire div with the background */
+    background-position: center; /* Center the image */
+    position: relative;
+    z-index: 1;
+    top: 0;
+
+}
+
+.content{
+    position: absolute;
+    top:40%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+}
+
+.logo{
+    width: 10%;
+    height: auto;
+    /* border:solid 2px red; */
+}
+
+.logo img{
+    width: 100%;
+}
+
+header nav{
+    width: 80%;
+}
+
+header nav ul{
+    list-style: none;
+    
+}
+header nav ul li{
+    display: inline-block;
+    margin-right: 5%;
+}
+
+header nav ul li a{
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 13px;
+}
+.content h1{
+    margin-top: 50px;
+}
+.content p{
+    margin-top: 20px;
+}
+.main_services_box{
+    width: 80%;
+    height: 140px;
+    background-color: bisque;
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%);
+    bottom: -30px;
+}
